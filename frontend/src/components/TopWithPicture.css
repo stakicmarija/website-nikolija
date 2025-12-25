@@ -1,0 +1,16 @@
+.top-image{
+    width: 192px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.top-container{
+    display: flex;
+    gap: 20px;
+}
+
+.page-title{
+    padding-top: 96px;
+    margin-left: auto;
+    text-transform: lowercase;
+}

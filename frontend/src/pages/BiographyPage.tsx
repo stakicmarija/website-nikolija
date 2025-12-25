@@ -1,15 +1,12 @@
 import BottomNav from "../components/BottomNav";
+import TopWithPicture from "../components/TopWithPicture";
 import './BiographyPage.css'
 
 export default function BiographyPage() {
   return(
     <>
       <div className="biography-container">
-        <div className="biography-top">
-            <img src="/images/nikiBio.jpeg" className="bio-image" />
-            <div className="nikolija-bio">Nikolija Stanojević</div>
-            <div className="page-title suisse-large">biography</div>
-        </div>
+        <TopWithPicture title='Biography'/>
 
         <div className="about-nikolija suisse-text">
               Lorem ipsum dolor sit amet consectetur. Augue pretium est nisl id duis velit sit hendrerit. Nibh eget mattis feugiat mauris donec suspendisse. Cursus risus nisl dui ornare dignissim aliquet massa. Ultrices mauris a purus a pretium ut fringilla. Sem velit in feugiat in. Et viverra faucibus quis ac consectetur molestie. 
