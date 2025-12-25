@@ -2,8 +2,18 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0 120px;
 }
 
+.suisse-large{
+  font-size: 48px;
+}
+
+.nikolija-large{
+  font-size: 64px;
+  font-style: italic;
+}
+
+.portfolio-large{
+  font-size: 96px;
+}
