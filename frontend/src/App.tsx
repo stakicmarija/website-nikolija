@@ -10,14 +10,16 @@ function App() {
 
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/biography" element={<BiographyPage />} />
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/exhibitions" element={<ExhitibitionsPage />} />
-        <Route path="/portfolio" element={<PortfolioPage />} />
-        <Route path="/publications" element={<PublicationsPage />} />
-      </Routes>
+      <div className='page-wrapper'>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/biography" element={<BiographyPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/exhibitions" element={<ExhitibitionsPage />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/publications" element={<PublicationsPage />} />
+        </Routes>
+      </div>
     </Router>
   )
 }

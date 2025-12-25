@@ -2,11 +2,22 @@
 body {
   margin: 0;
   display: flex;
-  padding: 56px 120px;
+}
+
+.page-wrapper {
+  padding: 56px 120px; 
+  box-sizing: border-box;
+  min-height: calc(100vh - 56px);     
+  display: flex;
+  flex-direction: column;
 }
 
 .suisse-large{
   font-size: 48px;
+}
+
+.suisse-36{
+  font-size: 36px;
 }
 
 .suisse-text{

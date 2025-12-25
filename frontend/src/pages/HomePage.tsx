@@ -9,7 +9,7 @@ export default function HomePage() {
       </div>
       <div className='center-links suisse-large'>
         <Link to="/biography">biography</Link>
-        <Link to="/portfolio" className='portfolio-link portfolio-large'>portfolio</Link>
+        <Link to="/portfolio" className='portfolio portfolio-large'>portfolio</Link>
         <Link to="/publications">publications</Link>
         <Link to="/exhibitions">exhibitions</Link>
       </div>
