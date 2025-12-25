@@ -2,16 +2,26 @@
 body {
   margin: 0;
   display: flex;
-  padding: 0 120px;
+  padding: 56px 120px;
 }
 
 .suisse-large{
   font-size: 48px;
 }
 
+.suisse-text{
+  font-size: 20px;
+}
+
 .nikolija-large{
   font-size: 64px;
   font-style: italic;
+}
+
+.nikolija-bio{
+  font-size: 48px;
+  font-style: italic;
+  opacity: 0.4;
 }
 
 .portfolio-large{
