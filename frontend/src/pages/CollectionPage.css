@@ -1,0 +1,28 @@
+.collection-container{
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    align-items: center;
+}
+
+.work-img{
+    max-width: 50%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.image-title > div{
+    max-width: 50%;
+    width: 100%;
+    text-align: left;
+}

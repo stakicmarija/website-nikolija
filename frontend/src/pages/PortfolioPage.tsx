@@ -7,9 +7,9 @@ export default function PortfolioPage() {
         <>  
             <div className="portfolio-container">
                 <div className="portfolio-links">
-                    <Link to="/" className="portfolio-link suisse-36">distortion</Link>
-                    <Link to="/" className="portfolio-link suisse-36">private zone</Link>
-                    <Link to="/" className="portfolio-link suisse-36" >soft armour</Link>
+                    <Link to="/portfolio/distortion" className="portfolio-link suisse-36">distortion</Link>
+                    <Link to="/portfolio/private-zone" className="portfolio-link suisse-36">private zone</Link>
+                    <Link to="/portfolio/soft-armour" className="portfolio-link suisse-36" >soft armour</Link>
                 </div>
             </div>
             <BottomNav />

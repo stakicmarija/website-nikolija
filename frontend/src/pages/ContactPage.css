@@ -1,0 +1,15 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.icon{
+    width: 24px;
+}
+
+.social{
+    display: flex;
+    gap: 16px;
+}

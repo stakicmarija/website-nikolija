@@ -12,6 +12,14 @@ body {
   flex-direction: column;
 }
 
+.pink{
+  color: #EC9EAC;
+}
+
+.has-top {
+  padding-top: 150px ;
+}
+
 .suisse-large{
   font-size: 48px;
 }
@@ -22,6 +30,10 @@ body {
 
 .suisse-text{
   font-size: 20px;
+}
+
+.suisse-16{
+  font-size: 16px;
 }
 
 .nikolija-large{

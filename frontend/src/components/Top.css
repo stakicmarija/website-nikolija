@@ -1,0 +1,12 @@
+.title{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: fixed;
+    top: 0; /* stick to top of viewport */
+    left: 0;
+    padding: 56px 120px 0px 120px; /* keep same horizontal padding as body */
+    text-transform: lowercase;
+    text-align: right; /* align text to the right */
+    z-index: 50;
+}
