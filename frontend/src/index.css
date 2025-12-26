@@ -1,7 +1,32 @@
 
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayRomanItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('/fonts/fonnts.com-Suisse_Intl_Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snell Roundhand';
+  src: url('/fonts/snellroundhand_bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   margin: 0;
   display: flex;
+  font-family: 'Suisse Intl';
 }
 
 .page-wrapper {
@@ -38,15 +63,18 @@ body {
 
 .nikolija-large{
   font-size: 64px;
+  font-family: 'Neue Haas Display';
   font-style: italic;
 }
 
 .nikolija-bio{
   font-size: 48px;
+  font-family: 'Neue Haas Display';
   font-style: italic;
   opacity: 0.4;
 }
 
 .portfolio-large{
+  font-family: 'Snell Roundhand';
   font-size: 96px;
 }
