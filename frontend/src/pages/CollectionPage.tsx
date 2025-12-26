@@ -1,7 +1,6 @@
 import { useParams } from 'react-router-dom'
 import './CollectionPage.css'
 import Top from '../components/Top'
-import BottomNav from '../components/BottomNav'
 
 export default function CollectionPage() {
     const { collection } = useParams() as { collection?: string }
@@ -19,7 +18,6 @@ export default function CollectionPage() {
                     <div>Louise 2025 Satin, wire and plush</div>
                 </div>
             </div>
-            <BottomNav />
         </>
     )
 }

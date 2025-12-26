@@ -8,10 +8,13 @@ import ExhibitionPage from './pages/ExhibitionPage'
 import PortfolioPage from './pages/PortfolioPage'
 import PublicationsPage from './pages/PublicationsPage'
 import CollectionPage from './pages/CollectionPage'
+import Navigation from './components/navigation/Navigation'
+
 function App() {
 
   return (
     <Router>
+      <Navigation />
       <div className='page-wrapper'>
         <Routes>
           <Route path="/" element={<HomePage />} />

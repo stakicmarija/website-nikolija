@@ -1,4 +1,3 @@
-import BottomNav from "../components/BottomNav";
 import Top from "../components/Top";
 import './PublicationsPage.css';
 
@@ -14,7 +13,6 @@ export default function PublicationsPage() {
           More publications content.
         </div>
       </div>
-      <BottomNav />
     </>
   )
 }

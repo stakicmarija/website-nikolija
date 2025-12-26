@@ -1,4 +1,3 @@
-import BottomNav from "../components/BottomNav";
 import Top from "../components/Top";
 import './ContactPage.css';
 
@@ -21,7 +20,6 @@ export default function ContactPage() {
         <div className="username">@nikolija_stanojevic</div>
       </div>
     </div>
-    <BottomNav />
     </>
   )
 }

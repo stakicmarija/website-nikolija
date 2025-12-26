@@ -1,4 +1,3 @@
-import BottomNav from "../components/BottomNav";
 import Top from "../components/Top";
 import './BiographyPage.css'
 
@@ -31,8 +30,6 @@ export default function BiographyPage() {
         </div>
 
       </div>
-
-      <BottomNav />
     </>
   )
 }

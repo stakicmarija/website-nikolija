@@ -1,0 +1,20 @@
+
+.bottom-nav-wrapper {
+  display: block;
+}
+.burger-wrapper {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .bottom-nav{
+    display: none;
+  }
+  .burger-wrapper {
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1100;
+  }
+}

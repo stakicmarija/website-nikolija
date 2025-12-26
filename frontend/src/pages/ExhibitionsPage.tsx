@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import BottomNav from "../components/BottomNav";
 import Top from "../components/Top";
 import './ExhibitionsPage.css';
 
@@ -24,7 +23,6 @@ export default function ExhitibitionsPage() {
                     <Link to="/exhibitions/2023" className="pink"> 2023 Exhibition - Risus amet gravida mollis dis elementum velit mattis ultrices egestas. </Link> 
                 </div>
             </div>
-            <BottomNav />
         </>
     )
 }

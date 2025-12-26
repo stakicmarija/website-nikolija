@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: 'Snell Roundhand';
-  src: url('/fonts/snellroundhand_bold.otf') format('opentype');
+  src: url('/fonts/SnellRoundhand.ttc') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import BottomNav from "../components/BottomNav";
 import "./PortfolioPage.css"
 
 export default function PortfolioPage() {
@@ -12,7 +11,6 @@ export default function PortfolioPage() {
                     <Link to="/portfolio/soft-armour" className="portfolio-link suisse-36" >soft armour</Link>
                 </div>
             </div>
-            <BottomNav />
         </>
     )
 }
