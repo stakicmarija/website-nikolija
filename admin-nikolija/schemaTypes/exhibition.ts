@@ -24,15 +24,51 @@ export default defineType({
             }
         }),
         defineField({
+            name: 'year',
+            title: 'Year',
+            type: 'number',
+            validation: Rule => Rule.required().min(1900).max(new Date().getFullYear())
+        }),
+        defineField({
+            name: 'gallery',
+            title: 'Gallery / Venue',
+            type: 'string',
+            validation: Rule => Rule.required()
+        }),
+        defineField({
+            name: 'location',
+            title: 'Location',
+            type: 'string',
+            validation: Rule => Rule.required()
+        }),
+        defineField({
             name: 'images',
             title: 'Images',
             type: 'array',
             of: [
                 {
                     type: 'image',
-                    options: { hotspot: true }
+                    options: { hotspot: true },
+                    fields: [
+                        {
+                            name: 'description',
+                            title: 'Description',
+                            type: 'text'
+                        }
+                    ]
                 }
             ]
+        }),
+        defineField({
+            name: 'slug',
+            title: 'Slug',
+            type: 'slug',
+            options: {
+                source: doc => `${doc.title}-${doc.year}-${doc.gallery}`, // čini slug unikatan
+                maxLength: 96
+            },
+            validation: Rule => Rule.required()
         })
+
     ]
 });

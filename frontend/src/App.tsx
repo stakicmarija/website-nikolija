@@ -23,7 +23,7 @@ function App() {
           <Route path="/exhibitions" element={<ExhitibitionsPage />} />
           <Route path="/exhibitions/:id" element={<ExhibitionPage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
-          <Route path="/portfolio/:collection" element={<CollectionPage />} />
+          <Route path="/portfolio/:id" element={<CollectionPage />} />
           <Route path="/publications" element={<PublicationsPage />} />
         </Routes>
       </div>
