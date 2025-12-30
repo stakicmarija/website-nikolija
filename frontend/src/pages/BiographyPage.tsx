@@ -8,25 +8,20 @@ export default function BiographyPage() {
       <div className="biography-container has-top">
         <img src="/images/nikiBio.jpeg" className="top-image" />
         <div className="about-nikolija suisse-text">
-              Lorem ipsum dolor sit amet consectetur. Augue pretium est nisl id duis velit sit hendrerit. Nibh eget mattis feugiat mauris donec suspendisse. Cursus risus nisl dui ornare dignissim aliquet massa. Ultrices mauris a purus a pretium ut fringilla. Sem velit in feugiat in. Et viverra faucibus quis ac consectetur molestie. 
-              Felis sodales in maecenas malesuada in vitae mauris eget risus. 
-              Rhoncus feugiat sem velit nisl urna ut in neque. 
-              Morbi rhoncus enim aenean odio sed.
-              At habitasse convallis porta nisl nibh nibh diam. 
-              Orci tincidunt malesuada accumsan pellentesque.
-              Aliquam tempus aliquam viverra adipiscing fermentum sed. 
-              <br />
-              Id faucibus at urna lectus felis nisl iaculis.
-                Lectus consectetur neque malesuada neque magna in.
-                Et dignissim vitae enim elementum ultricies magna vivamus lobortis lorem.
-                  Nulla urna mi dictum magnis massa.
-              Tenim placerat pharetra sit. 
-              Nulla nunc sit gravida interdum facilisis facilisis gravida sit id. 
-              Malesuada tristique eget faucibus consectetur odio consectetur ac. <br />
-              Ut eu habitant odio amet commodo orci morbi odio malesuada. 
-              Fermentum non suspendisse proin non mattis diam suspendisse id vitae.
-              Massa adipiscing ultrices amet volutpat integer bibendum in tellus. 
-              Faucibus dolor amet suspendisse nunc sit senectus.
+              Nikolija Stanojević (Mag. art / Mag. Kunst) is a visual artist based 
+              in Vienna and Belgrade, whose practice encompasses painting, textile,
+              installation, and sculpture. Her work explores the body, objects as characters, 
+              and emotions through expressive distortion and material transformation, 
+              and she continues to investigate these themes across a range of media.
+              She completed her Mag. art (Kunst) degree at the University of Applied Arts in Vienna, 
+              in the Painting and Animation program, under Professor Judith Eisler.
+               During her studies,
+                she further specialized in fashion design at the BAU Art and Design University in Barcelona.
+              Prior to that, she graduated from the School of Design in Belgrade, 
+              specializing as a fine arts technician. 
+              After nine years of studying fine arts in Belgrade,
+               Vienna, and Barcelona, she has developed an artistic language shaped by the ability to synthesize diverse experiences and influences. 
+              Her work has been presented in numerous group and solo exhibitions.
         </div>
 
       </div>

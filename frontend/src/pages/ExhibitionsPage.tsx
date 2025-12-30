@@ -8,7 +8,7 @@ export default function ExhitibitionsPage() {
             <Top title="Exhibitions" />
             <div className="exhibitions-container has-top suisse-text pink">
                 <div className="solo-exhibitions">
-                    Solo Exhibitions:
+                    SOLO EXHIBITIONS
                     <br />
                     <Link to="/exhibitions/2024" className="pink"> 2024 Exhibition - Lorem ipsum dolor sit amet consectetur. </Link> 
                     <br />
@@ -16,7 +16,7 @@ export default function ExhitibitionsPage() {
                 </div>
                 
                 <div className="group-exhibitions">
-                    Group Exhibitions:
+                    GROUP EXHIBITIONS
                     <br />
                     <Link to="/exhibitions/2024" className="pink"> 2024 Exhibition - Lorem ipsum dolor sit amet consectetur. </Link> 
                     <br />
