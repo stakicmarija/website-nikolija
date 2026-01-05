@@ -106,6 +106,11 @@ html {
   .portfolio-large {
     font-size: 52px;
   }
+
+  .suisse-text {
+    font-size: 16px;
+  }
+
 }
 
 @media (min-width: 640px) and (max-width: 1024px) {
@@ -119,6 +124,10 @@ html {
 
   .nikolija-large {
     font-size: 48px;
+  }
+
+  .suisse-text {
+    font-size: 18px;
   }
 
   .suisse-large {

@@ -8,3 +8,21 @@
     height: 260px;
     object-fit: cover;
 }
+
+.biography-container{
+    display: flex;
+    gap: 48px;
+}
+
+@media (max-width: 768px) {
+    .biography-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .top-image{
+        width: 180px;
+        height: 260px;
+    }
+}
