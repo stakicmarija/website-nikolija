@@ -6,22 +6,23 @@ import { BurgerButton } from "./BurgerButton";
 import './Navigation.css';
 
 export default function Navigation() {
-  const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation();
+    const [isOpen, setIsOpen] = useState(false);
+    const location = useLocation();
 
-  const toggle = () => setIsOpen(!isOpen);
-  const closeMenu = () => setIsOpen(false);
+    const toggle = () => setIsOpen(!isOpen);
+    const closeMenu = () => setIsOpen(false);
 
-  const showBottomNav = location.pathname !== "/";
+    const showNav = location.pathname !== "/";
 
-  return (
-    <>
-      <div className="burger-wrapper">
-        <BurgerButton isOpen={isOpen} toggle={toggle} />
-        <BurgerMenu isOpen={isOpen} onClose={closeMenu} />
-      </div>
+    return (
+        <>
+            {showNav &&
+                <div className="burger-wrapper">
+                    <BurgerButton isOpen={isOpen} toggle={toggle} />
+                    <BurgerMenu isOpen={isOpen} onClose={closeMenu} />
+                </div>}
 
-      {showBottomNav && <BottomNav />}
-    </>
-  );
+            {showNav && <BottomNav />}
+        </>
+    );
 }
