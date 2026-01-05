@@ -1,12 +1,20 @@
-.title{
+.title {
     width: 100%;
     box-sizing: border-box;
     background-color: #fff;
     position: fixed;
-    top: 0; /* stick to top of viewport */
+    top: 0;
     left: 0;
-    padding: 56px 120px 0px 120px; /* keep same horizontal padding as body */
+    padding: 56px clamp(96px, 8vw, 240px) 0px clamp(96px, 8vw, 240px);
     text-transform: lowercase;
-    text-align: right; /* align text to the right */
+    text-align: right;
     z-index: 50;
+}
+
+@media (max-width: 768px) {
+    .title {
+        padding-top: 24px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 }

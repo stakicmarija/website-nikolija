@@ -26,3 +26,14 @@
     width: 100%;
     text-align: left;
 }
+
+@media (max-width: 1024px) {
+    .work-img{
+        max-width: 80%;
+    }
+    
+    .image-title > div{
+        max-width: 80%;
+    }
+
+}
