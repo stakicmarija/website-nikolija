@@ -5,10 +5,23 @@
     position: fixed;
     top: 0;
     left: 0;
-    padding: 56px clamp(96px, 8vw, 240px) 0px clamp(96px, 8vw, 240px);
+    padding: 56px clamp(96px, 8vw, 240px) 0 clamp(96px, 8vw, 240px);
     text-transform: lowercase;
     text-align: right;
     z-index: 50;
+
+    max-width: 1600px;  /* maksimalna širina naslova */
+    margin: 0 auto;      /* centriranje */
+}
+
+@media (max-width: 1024px) {
+    .title {
+        padding-left: 64px;
+        padding-right: 64px;
+
+        max-width: 100%;  
+        margin: 0;         
+    }
 }
 
 @media (max-width: 768px) {

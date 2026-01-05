@@ -14,6 +14,10 @@
     gap: 48px;
 }
 
+.artist-name {
+  font-weight: 700; 
+}
+
 @media (max-width: 768px) {
     .biography-container{
         flex-direction: column;

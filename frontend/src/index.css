@@ -35,18 +35,22 @@ html {
 .page-wrapper {
   padding: 56px clamp(96px, 8vw, 240px);
   box-sizing: border-box;
+  max-width: 1400px;  
+  margin: 0 auto;      
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
+
+
 
 .pink {
   color: #EC9EAC;
 }
 
 .has-top {
-  padding-top: 120px;
-  padding-bottom: 112px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .suisse-large {
@@ -58,15 +62,12 @@ html {
 }
 
 .suisse-text {
-  font-size: 20px;
-}
-
-.suisse-16 {
   font-size: 16px;
+  line-height: 1.6;
 }
 
 .nikolija-large {
-  font-size: 64px;
+  font-size: 60px;
   font-family: 'Neue Haas Display';
   font-style: italic;
 }
@@ -80,7 +81,7 @@ html {
 
 .portfolio-large {
   font-family: 'Snell Roundhand';
-  font-size: 96px;
+  font-size: 72px;
 }
 
 
@@ -91,7 +92,7 @@ html {
   }
 
   .has-top {
-    padding-top: 56px;
+    padding-top: 8px;
     padding-bottom: 0px;
   }
 
@@ -105,10 +106,6 @@ html {
 
   .portfolio-large {
     font-size: 40px;
-  }
-
-  .suisse-text {
-    font-size: 16px;
   }
 
   .suisse-36 {
@@ -129,15 +126,11 @@ html {
     font-size: 48px;
   }
 
-  .suisse-text {
-    font-size: 18px;
-  }
-
   .suisse-large {
     font-size: 32px;
   }
 
   .portfolio-large {
-    font-size: 72px;
+    font-size: 64px;
   }
 }

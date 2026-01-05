@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 96px;
     align-items: center;
+    font-size: 14px;
 }
 
 .work-img{
@@ -17,7 +18,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 2px;
     width: 100%;
 }
 
@@ -34,6 +35,19 @@
     
     .image-title > div{
         max-width: 80%;
+    }
+
+    .collection-container{
+        font-size: 14px;
+    }
+
+}
+
+
+@media (max-width: 640px) {
+
+    .collection-container{
+        font-size: 12px;
     }
 
 }

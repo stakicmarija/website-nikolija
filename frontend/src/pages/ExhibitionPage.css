@@ -1,30 +1,35 @@
-.exhibition-container{
+.exhibition-container {
     display: flex;
     flex-direction: column;
     gap: 96px;
 }
 
-.exhibition-container img{
+.exhibition-container img {
     max-width: 50%;
 }
 
-.left-img{
+.left-img {
     align-self: flex-start;
 }
 
-.right-img{
+.right-img {
     align-self: flex-end;
 }
 
 @media (max-width: 1024px) {
-    .left-img{
+    .left-img {
         align-self: center;
     }
 
-    .right-img{
+    .right-img {
         align-self: center;
     }
-    .exhibition-container img{
+
+    .exhibition-container img {
         max-width: 80%;
+    }
+
+    .exhibition-container {
+        gap: 48px;
     }
 }

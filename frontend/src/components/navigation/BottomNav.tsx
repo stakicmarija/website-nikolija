@@ -3,7 +3,7 @@ import './BottomNav.css'
 
 export default function BottomNav() {
     return(
-        <nav className="bottom-nav suisse-16">
+        <nav className="bottom-nav suisse-text">
             <NavLink to="/" className={({isActive}) => isActive ? 'active' : ''}>home</NavLink>
             <NavLink to="/biography" className={({isActive}) => isActive ? 'active' : ''}>biography</NavLink>
             <NavLink to="/portfolio" className={({isActive}) => isActive ? 'active' : ''}>portfolio</NavLink>

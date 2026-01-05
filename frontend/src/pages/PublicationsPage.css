@@ -1,6 +1,6 @@
 .publications-container{
     display: flex;
     gap: 96px;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+
 }

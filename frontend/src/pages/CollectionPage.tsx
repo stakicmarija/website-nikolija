@@ -26,7 +26,7 @@ export default function CollectionPage() {
     return (
         <>
             <Top title={title} />
-            <div className='collection-container has-top suisse-text'>
+            <div className='collection-container has-top'>
                 {images.map(img => (
                     <div key={img.asset._id} className="image-title">
                         <img src={img.asset.url} className="work-img" />

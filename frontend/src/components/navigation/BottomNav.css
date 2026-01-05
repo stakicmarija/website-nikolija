@@ -20,9 +20,3 @@
 .bottom-nav a.active{
     opacity: 1;
 }
-
-@media (max-width: 768px) {
-    .bottom-nav{
-        border-top: 1px solid #e9e9e9;
-    }
-}

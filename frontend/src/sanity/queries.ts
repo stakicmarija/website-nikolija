@@ -54,4 +54,11 @@ export const portfolioImagesQuery = `
       description
     }
   }
-`;
+`
+
+
+export const publicationsQuery = `*[_type == "publication"]{
+  _id,
+  label,
+  link
+}`
